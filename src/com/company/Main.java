@@ -93,6 +93,7 @@ public class Main {
                 Random n = new Random();
                 int hp = n.nextInt(2) + 2;
                 System.out.println("Medic added HP: " + heroesHealth[i] + hp);
+                break;
             }
         }
     }
